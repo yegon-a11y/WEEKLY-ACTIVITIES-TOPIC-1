@@ -1,0 +1,15 @@
+# ---- Variable Declarations ----
+business_name = "Zetech Traders"
+product_name = "Laptop Bag"
+product_price = 1500
+quantity_purchased = 4
+
+# ---- Calculation ----
+total_cost = product_price * quantity_purchased
+
+# ---- Display Results ----
+print(f"Business Name: {business_name}")
+print(f"Product Name: {product_name}")
+print(f"Quantity Purchased: {quantity_purchased}")
+print(f"Price per Unit: KES {product_price}")
+print(f"Total Cost: KES {total_cost}")
