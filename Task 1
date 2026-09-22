@@ -1,0 +1,14 @@
+# ---- Variable Declarations ----
+patient_name = "Joshu Yegon"
+patient_id = "P001"
+patient_age = 18
+patient_gender = "Male"
+
+# ---- Display using print() ----
+print(patient_name, patient_id, patient_age, patient_gender)
+
+# ---- Display using f-string ----
+print(f"Patient Name: {patient_name}")
+print(f"Patient ID: {patient_id}")
+print(f"Age: {patient_age}")
+print(f"Gender: {patient_gender}")
