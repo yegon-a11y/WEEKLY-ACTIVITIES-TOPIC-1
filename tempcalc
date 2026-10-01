@@ -1,0 +1,10 @@
+def convert_temp(celcius_temp):
+    farenheit=(celcius_temp*9/5)+32
+    return farenheit
+
+celcius_temp=int(input("Temperature in celcius: "))
+farenheit=convert_temp(celcius_temp)
+
+print(f"THE TEMPERATURE IS {farenheit}F")
+
+    
