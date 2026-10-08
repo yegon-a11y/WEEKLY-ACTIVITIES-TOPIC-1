@@ -1,0 +1,13 @@
+inventory = {
+    "Milk": 20,
+    "Bread": 15,
+    "Sugar": 30,
+    "Rice": 25,
+    "Cooking Oil": 10
+}
+print("Quantity of Rice:", inventory["Rice"])
+inventory["Tea"] = 18
+inventory["Milk"] = 25
+del inventory["Bread"]
+print("Final Inventory:")
+print(inventory)
