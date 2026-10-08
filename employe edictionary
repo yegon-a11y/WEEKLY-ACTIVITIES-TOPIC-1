@@ -1,0 +1,9 @@
+employees ={"Josh": 100000,"susan": 30000, "Mary": 130000, "James": 20000,"Ronald": 400000}
+print("Employee salaries:")
+for name, salary in employees.items():
+    print(name, ":", salary)
+
+employees["John"] = 35000
+employees["Sarah"] = 38000
+total_salary = sum(employees.values())
+print("\nTotal salary payable:", total_salary)
