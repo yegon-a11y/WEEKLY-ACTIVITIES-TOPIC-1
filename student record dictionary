@@ -1,0 +1,13 @@
+student = {
+    "Regno": 6767,
+    "Stuname": "JOSH",
+    "Course": "IT",
+    "Year": 2025
+}
+
+print(student["Stuname"], student["Course"])
+
+student["email"] = "joshsth@fake.com"
+student["Year"] = 2026
+
+print(student)
