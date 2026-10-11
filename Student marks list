@@ -1,0 +1,15 @@
+marks =[59,99,67,77,76]
+print("Marks are: ", marks)
+Total=sum(marks)
+print("Total marks are: ", Total)
+
+average = Total / len(marks)
+print("Average mark:", average)
+
+print("Highest mark:", max(marks))
+
+print("Lowest mark:", min(marks))
+
+marks[2] = 70
+print("Updated marks:", marks)
+
