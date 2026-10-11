@@ -1,0 +1,6 @@
+categories = {"Electronics", "Cosmetics", "Toys", "Clothing", "Toys", "Stationery", "Clothing","Sports"}
+print("Records: ", categories)
+categories.add("Cutlery")
+print("After add:", categories)
+categories.remove("Toys")
+print("Final: ", categories)
