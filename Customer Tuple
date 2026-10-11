@@ -1,0 +1,7 @@
+customer = ( "Josh", "EID100", +254757443204, "josh@yahoo.com" ) 
+print("Record: ", customer)
+print("Name: ", customer[0])
+print("Number: ",  customer[2])
+print("items: ", len(customer))
+for item in customer:
+    print(item, "->", type(item).__name__)
