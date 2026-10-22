@@ -1,0 +1,36 @@
+class BankAccount:
+    def __init__(self, account_number, customer_name, balance=0):
+        self.account_number = account_number
+        self.customer_name = customer_name
+        self.balance = balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print(f"Deposited KSh {amount:,}")
+        else:
+            print("Deposit must be greater than zero.")
+
+    def withdraw(self, amount):
+        if amount <= 0:
+            print("Withdrawal must be greater than zero.")
+        elif amount > self.balance:
+            print("Insufficient funds.")
+        else:
+            self.balance -= amount
+            print(f"Withdrew KSh {amount:,}")
+
+    def displayAccount(self):
+        print("\n--- Account Details ---")
+        print(f"Account Number : {self.account_number}")
+        print(f"Customer Name  : {self.customer_name}")
+        print(f"Balance        : KSh {self.balance:,}")
+
+
+if __name__ == "__main__":
+    account = BankAccount("1001234567", "Josh", 0)
+
+    account.deposit(5000)
+    account.withdraw(2000)
+
+    account.displayAccount()
