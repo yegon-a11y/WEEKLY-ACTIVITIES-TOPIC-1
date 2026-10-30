@@ -1,0 +1,24 @@
+class Employee:
+    def __init__(self, emp_name, emp_id):
+        self.emp_name = emp_name
+        self.emp_id = emp_id
+
+    def displayEmployee(self):
+        return f"Employee Details:" {self.emp_name}, {self.emp_id}
+
+
+class Lecturer(Employee):
+    def __init__(self, emp_name, emp_id, subject):
+        super().__init__(emp_name, emp_id)
+        self.subject = subject
+
+    def displayLecturer(displayEmployee):
+        super().__init__(emp_name, emp_id,)
+        return f"Lecturer Details: ", emp_name, emp_id, subject
+
+h_emp = ("Josh",133)
+print(h_emp.displayEmployee())
+
+s_lec = ("Josh", 455, "PYTHON")
+print(s_lec.displayLecturer())
+
