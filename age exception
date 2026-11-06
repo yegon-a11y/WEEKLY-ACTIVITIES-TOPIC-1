@@ -1,0 +1,9 @@
+while True:
+    try:
+        age = int(input("Enter the age: "))
+    except ValueError:
+        print("Invalid age entered.")
+    else:
+        print(f"YOUR AGE IS: {age}")
+        print("Age successfully recorded")
+        break
