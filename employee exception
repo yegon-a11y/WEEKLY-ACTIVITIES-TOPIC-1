@@ -1,0 +1,8 @@
+try:
+    with open("employees.txt", "r") as f:
+        content = f.read()
+        print(content)
+except FileNotFoundError:
+    print("The employee file was not found.")
+finally:
+    print("File processing completed.")
