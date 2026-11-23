@@ -1,0 +1,15 @@
+
+
+balance = 50000
+
+amount = int(input("Enter withdrawal amount (KSh): "))
+
+if amount <= 0:
+    print("Error: Withdrawal amount must be greater than zero.")
+elif amount > balance:
+    print("Error: Insufficient funds. Amount exceeds your account balance.")
+elif amount % 500 != 0:
+    print("Error: Amount must be a multiple of KSh 500.")
+else:
+    balance = balance - amount
+    print(f"Withdrawal successful. Remaining balance: KSh {balance}")
