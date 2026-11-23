@@ -1,11 +1,9 @@
-# ---- student.py ----
-# Variable Declarations
+
 student_name = "Grace Wanjiru"
 reg_number = "BSCIT-01-0099/2025"
 course = "Information Technology"
 year_of_study = 2
-
-# Display student information
+n
 print(f"Student Name: {student_name}")
 print(f"Registration Number: {reg_number}")
 print(f"Course: {course}")
