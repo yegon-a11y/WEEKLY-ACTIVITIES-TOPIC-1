@@ -1,0 +1,14 @@
+
+name = input("Enter student name: ")
+coursework = float(input("Enter coursework mark (out of 30): "))
+exam = float(input("Enter examination mark (out of 70): "))
+
+total_mark = coursework + exam
+
+passed = total_mark >= 40
+
+print(f"\nStudent Name: {name}")
+print(f"Coursework Mark: {coursework}")
+print(f"Examination Mark: {exam}")
+print(f"Total Mark: {total_mark}")
+print(f"Passed: {passed}")
