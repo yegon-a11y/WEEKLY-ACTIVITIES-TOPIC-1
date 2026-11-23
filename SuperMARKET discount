@@ -1,0 +1,14 @@
+
+
+amount = float(input("Enter total purchase amount (KSh): "))
+
+discount = 0.0
+
+if amount >= 10000:
+    discount = 0.15 * amount
+
+final_amount = amount - discount
+
+print(f"\nPurchase Amount: KSh {amount:.2f}")
+print(f"Discount: KSh {discount:.2f}")
+print(f"Final Amount: KSh {final_amount:.2f}")
