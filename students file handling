@@ -1,0 +1,21 @@
+f = open("students.txt", "w")
+
+print("Name: JOSHUA YEGON", file=f)
+print("Registration Number: BSCIT-01-0058/2025", file=f)
+print("Course: BSc Information Technology", file=f)
+print("Mark: 78", file=f)
+print("", file=f)
+
+print("Name: Faith Wanjiru", file=f)
+print("Registration Number: BSCIT-01-0102/2025", file=f)
+print("Course: BSc Information Technology", file=f)
+print("Mark: 85", file=f)
+print("", file=f)
+
+print("Name: Kevin Mutua", file=f)
+print("Registration Number: BSCS-01-0203/2025", file=f)
+print("Course: BSc Computer Science", file=f)
+print("Mark: 69", file=f)
+
+f.close()
+print("Student records saved to students.txt")
