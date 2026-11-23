@@ -1,0 +1,16 @@
+
+
+name = input("Enter employee name: ")
+basic_salary = float(input("Enter basic salary: "))
+deduction = float(input("Enter monthly deduction: "))
+
+housing_allowance = 0.10 * basic_salary
+gross_salary = basic_salary + housing_allowance
+net_salary = gross_salary - deduction
+
+print(f"\nEmployee Name: {name}")
+print(f"Basic Salary: {basic_salary:.2f}")
+print(f"Housing Allowance: {housing_allowance:.2f}")
+print(f"Gross Salary: {gross_salary:.2f}")
+print(f"Deduction: {deduction:.2f}")
+print(f"Net Salary: {net_salary:.2f}")
