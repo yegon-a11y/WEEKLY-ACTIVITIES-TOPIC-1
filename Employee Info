@@ -1,0 +1,14 @@
+
+
+name = input("Enter employee name: ")
+emp_id = input("Enter employee ID: ")
+age = int(input("Enter employee age: "))
+basic_salary = float(input("Enter basic salary: "))
+
+annual_salary = basic_salary * 12
+
+print(f"\nEmployee Name: {name}")
+print(f"Employee ID: {emp_id}")
+print(f"Age: {age}")
+print(f"Basic Salary: {basic_salary:.2f}")
+print(f"Annual Salary: {annual_salary:.2f}")
