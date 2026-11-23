@@ -1,0 +1,15 @@
+
+
+name = input("Enter employee name: ")
+years = int(input("Enter years of service: "))
+rating = int(input("Enter performance rating: "))
+
+if years >= 3 and rating >= 4:
+    result = "Employee qualifies for a bonus"
+else:
+    result = "Employee does not qualify for a bonus"
+
+print(f"\nEmployee Name: {name}")
+print(f"Years of Service: {years}")
+print(f"Performance Rating: {rating}")
+print(result)
