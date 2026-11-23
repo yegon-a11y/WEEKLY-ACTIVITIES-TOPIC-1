@@ -1,0 +1,15 @@
+
+name = "Grace Achieng"
+age = 29
+salary = 85000.50
+is_active = True  # Boolean value
+
+print(f"Employee Name: {name}")
+print(f"Age: {age}")
+print(f"Salary: {salary:.2f}")
+print(f"Active Status: {is_active}")
+
+
+print("\nConcatenation demo:")
+print("Employee age is " + str(age) + " years.")
+print("Employee salary is " + str(salary) + " per month.")
