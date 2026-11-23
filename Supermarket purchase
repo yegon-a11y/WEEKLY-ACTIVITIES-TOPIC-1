@@ -1,0 +1,15 @@
+
+
+customer = input("Enter customer name: ")
+product = input("Enter product name: ")
+quantity = int(input("Enter quantity purchased: "))
+price = float(input("Enter price per item: "))
+
+
+total_cost = quantity * price
+
+print(f"\nCustomer Name: {customer}")
+print(f"Product Name: {product}")
+print(f"Quantity: {quantity}")
+print(f"Price: {price:.3f}")
+print(f"Total Cost: {total_cost:.3f}")
