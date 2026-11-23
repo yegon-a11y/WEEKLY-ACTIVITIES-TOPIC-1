@@ -1,0 +1,9 @@
+product = input("Enter product name: ")
+quantity = input("Enter quantity sold: ")
+total = input("Enter total sales amount: ")
+
+f = open("sales.txt", "a")
+print(f"Product: {product}, Quantity: {quantity}, Total: {total}", file=f)
+f.close()
+
+print("Sales record added successfully.")
